@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Link from 'next/link';
+import NavLink from '@/components/navLink';
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -19,6 +20,12 @@ export const metadata: Metadata = {
     description: "Personal website of Travis Neufeld",
 };
 
+const linkNames = [
+    'About',
+    'Portfolio',
+    'Resume',
+];
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -29,20 +36,14 @@ export default function RootLayout({
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
-                <div className="border-b-2 border-[#857F74] mb-8">
-                    <header className="flex justify-between items-center p-8">
-                        <Link href="/about"><h1 className="text-4xl font-bold">Travis Neufeld</h1></Link>
-                        <nav>
+                <div className="mb-8 shadow-lg">
+                    <header className="flex-col justify-center items-center p-8">
+                        <Link href="/about">
+                            <h1 className="text-4xl font-bold text-center">Travis Neufeld</h1>
+                        </Link>
+                        <nav className="flex justify-center mt-4">
                             <ul className="flex gap-4">
-                                <li>
-                                    <Link href="/about">About</Link>
-                                </li>
-                                <li>
-                                    <Link href="/portfolio">Portfolio</Link>
-                                </li>
-                                <li>
-                                    <Link href="/resume">Resume</Link>
-                                </li>
+                                {linkNames.map((name) => (<NavLink key={name} name={name} />))}
                             </ul>
                         </nav>
                     </header>

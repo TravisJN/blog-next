@@ -1,0 +1,32 @@
+.linkEffect {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.linkEffect--insideOut::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -1px;
+    left: 50%;
+    background-color: black;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.linkEffect--insideOut:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.selectedLink::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    bottom: -1px;
+    background-color: black;
+}

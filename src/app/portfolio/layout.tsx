@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLink from '@/components/navLink';
 
 function PortfolioLayout({ apps }: Readonly<{
     apps: React.ReactNode;
@@ -8,28 +8,28 @@ function PortfolioLayout({ apps }: Readonly<{
             <div>
                 <ul className="flex flex-col gap-3">
                     <li>
-                        <Link href="/portfolio/dlivr">Dlivr</Link>
+                        <NavLink name="Dlivr" linkPath="/portfolio/dlivr" />
                     </li>
                     <li>
-                        <Link href="/portfolio/outofinsight">Outofinsight</Link>
+                        <NavLink name="Outofinsight" linkPath="/portfolio/outofinsight" />
                     </li>
                     <li>
-                        <Link href="/portfolio/boomboom">Boom Boom</Link>
+                        <NavLink name="Boom Boom" linkPath="/portfolio/boomboom" />
                     </li>
                     <li>
-                        <Link href="/portfolio/crapsbattle">Craps Battle</Link>
+                        <NavLink name="Craps Battle" linkPath="/portfolio/crapsbattle" />
                     </li>
                     <li>
-                        <Link href="/portfolio/bomblobber">Bomblobber</Link>
+                        <NavLink name="Bomblobber" linkPath="/portfolio/bomblobber" />
                     </li>
                     <li>
-                        <Link href="/portfolio/brewingandbeer">Brewingandbeer</Link>
+                        <NavLink name="Brewingandbeer" linkPath="/portfolio/brewingandbeer" />
                     </li>
                     <li>
-                        <Link href="/portfolio/macrorecipes">Macro Recipes</Link>
+                        <NavLink name="Macro Recipes" linkPath="/portfolio/macrorecipes" />
                     </li>
                     <li>
-                        <Link href="/portfolio/insandouts">Ins & Outs</Link>
+                        <NavLink name="Ins & Outs" linkPath="/portfolio/insandouts" />
                     </li>
                 </ul>
             </div>

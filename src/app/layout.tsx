@@ -43,7 +43,7 @@ export default function RootLayout({
                         </Link>
                         <nav className="flex justify-center mt-4">
                             <ul className="flex gap-4">
-                                {linkNames.map((name) => (<NavLink key={name} name={name} />))}
+                                {linkNames.map((name) => (<NavLink key={name} name={name} linkPath={`/${name.toLowerCase()}`} />))}
                             </ul>
                         </nav>
                     </header>

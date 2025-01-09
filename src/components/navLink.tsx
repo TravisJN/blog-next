@@ -6,16 +6,16 @@ import { usePathname } from 'next/navigation';
 
 type Props = {
     name: string;
+    linkPath: string;
 };
 
-function NavLink({ name }: Props) {
+function NavLink({ name, linkPath }: Props) {
     const pathname = usePathname();
 
-    const link = `/${name.toLowerCase()}`;
-    const isActive = pathname === link;
+    const isActive = pathname.includes(linkPath);
 
     return (
-        <Link href={link}>
+        <Link href={linkPath}>
             <div className={isActive ? 'linkEffect selectedLink' : 'linkEffect linkEffect--insideOut'}>
                 {name}
             </div>

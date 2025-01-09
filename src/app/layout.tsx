@@ -34,9 +34,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#022B3A]`}
             >
-                <div className="mb-8 shadow-lg">
+                <div className="mb-8">
                     <header className="flex-col justify-center items-center p-8">
                         <Link href="/about">
                             <h1 className="text-4xl font-bold text-center">Travis Neufeld</h1>
@@ -48,7 +48,9 @@ export default function RootLayout({
                         </nav>
                     </header>
                 </div>
-                {children}
+                <div className="flex justify-center">
+                    {children}
+                </div>
             </body>
         </html>
     );

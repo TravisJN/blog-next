@@ -12,7 +12,7 @@
     height: 2px;
     bottom: -1px;
     left: 50%;
-    background-color: black;
+    background-color: #E1E5F2;
     transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -28,5 +28,5 @@
     left: 0;
     height: 2px;
     bottom: -1px;
-    background-color: black;
+    background-color: #E1E5F2;
 }

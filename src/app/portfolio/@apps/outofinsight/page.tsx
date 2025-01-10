@@ -12,7 +12,7 @@ function Outofinsight() {
         <div className="flex flex-col gap-4">
             <div className="flex">
                 <Image src={outofinsightLogo} alt="Outofinsight" width={20} height={10} style={{ objectFit: 'contain' }} />
-                <p className="font-bold">OutofinsighT</p>
+                <p className="font-bold">Outofinsight</p>
             </div>
             <div className="flex items-center gap-2">
                 <p>Built with React and Firebase</p>

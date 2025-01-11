@@ -17,7 +17,7 @@ function Bomblobber() {
             <p>Bomblobber is a physics simulation game I made while taking some computer science courses at Santa Rosa Junior College. This was a precursor to my more complete game, Boom Boom. Check it out by clicking to launch a missile.</p>
             <iframe
                 title="bomblobber"
-                style={{ border: 'none', padding: 0 }}
+                style={{ border: 'none' }}
                 height="600px"
                 width="600px"
                 id="bomblobber-game"

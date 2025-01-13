@@ -8,7 +8,7 @@ import macroRecipesImage3 from '@/assets/macrorecipes3.png';
 
 function Macrorecipes() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <div className="flex">
                 <p className="font-bold">Macro Recipes</p>
             </div>

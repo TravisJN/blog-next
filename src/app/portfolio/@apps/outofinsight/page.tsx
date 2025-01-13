@@ -9,7 +9,7 @@ import outofinsightPage from '@/assets/outofinsight.jpg';
 
 function Outofinsight() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <div className="flex">
                 <Image src={outofinsightLogo} alt="Outofinsight" width={20} height={10} style={{ objectFit: 'contain' }} />
                 <p className="font-bold">Outofinsight</p>

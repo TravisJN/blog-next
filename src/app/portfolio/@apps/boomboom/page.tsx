@@ -6,7 +6,7 @@ import boomboom1 from '@/assets/boomboom1.png';
 
 function Boomboom() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <div className="flex">
                 <p className="font-bold">Boom Boom</p>
             </div>

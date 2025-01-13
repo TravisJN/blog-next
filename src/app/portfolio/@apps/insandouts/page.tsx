@@ -8,7 +8,7 @@ import insandoutsImage2 from '@/assets/insandouts2.png';
 
 function Insandouts() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <div className="flex">
                 <p className="font-bold">Ins & Outs</p>
             </div>

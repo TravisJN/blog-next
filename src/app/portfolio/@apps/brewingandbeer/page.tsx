@@ -4,7 +4,7 @@ import brewingandbeerImage from '@/assets/brewingandbeer.jpg';
 
 function Brewingandbeer() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <p className="font-bold">Brewing and Beer</p>
             <div className="flex items-center gap-2">
                 <p>Built with Wordpress</p>

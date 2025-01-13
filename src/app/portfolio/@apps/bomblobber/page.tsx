@@ -5,7 +5,7 @@ import githubLogo from '@/assets/github-logo-white.png';
 
 function Bomblobber() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-24">
             <p className="font-bold">Bomblobber</p>
             <div className="flex items-center gap-2">
                 <p>Built with vanilla JS with Canvas</p>

@@ -13,7 +13,7 @@ function Macrorecipes() {
                 <p className="font-bold">Macro Recipes</p>
             </div>
             <div className="flex items-center gap-2">
-                <p>Built with React Native and the Spoonacular API</p>
+                <p>Built with React Native with Expo and the Spoonacular API</p>
                 <a href="https://github.com/TravisJN/macro-recipes" className="flex items-center gap-1 border rounded p-1">
                     <Image src={githubMark} width={20} height={20} alt="github" />
                     <Image src={githubLogo} height={20} alt="github" />

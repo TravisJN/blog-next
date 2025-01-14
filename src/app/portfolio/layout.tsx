@@ -33,7 +33,7 @@ function PortfolioLayout({ apps }: Readonly<{
                     </li>
                 </ul>
             </div>
-            <div className="w-auto ml-8">{apps}</div>
+            <div className="ml-8">{apps}</div>
         </div>
     );
 }

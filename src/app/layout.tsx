@@ -48,7 +48,7 @@ export default function RootLayout({
                         </nav>
                     </header>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center max-w-screen-lg mx-auto">
                     {children}
                 </div>
             </body>

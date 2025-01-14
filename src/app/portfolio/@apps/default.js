@@ -1,6 +1,8 @@
+import { redirect } from 'next/navigation';
 
 function AppsDefault() {
-    return <p>Stuff</p>;
+    redirect('/portfolio/dlivr');
+    return null;
 }
 
 export default AppsDefault;

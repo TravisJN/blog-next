@@ -34,7 +34,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#022B3A]`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-[#152142] via-[#0c2987] to-[#111827] bg-fixed`}
             >
                 <div className="mb-8">
                     <header className="flex-col justify-center items-center p-8">

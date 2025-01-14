@@ -24,7 +24,7 @@ function About() {
                     <Image src={githubMark} width={20} height={20} alt="github" />
                     <Image src={githubLogo} height={20} alt="github" />
                 </a>
-                <a href="mailto:travis.neufeld@gmail.com" className="linkEffect linkEffect--insideOut">
+                <a href="https://www.linkedin.com/in/travisjneufeld/" className="linkEffect linkEffect--insideOut">
                     <p>LinkedIn Profile</p>
                 </a>
             </div>

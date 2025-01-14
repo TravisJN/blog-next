@@ -20,7 +20,7 @@ function Boomboom() {
             <div className="linkEffect linkEffect--insideOut mr-auto">
                 <a href="https://platopixel.itch.io/boomboom" target="_blank" rel="noopener noreferrer">Play it in your browser!</a>
             </div>
-            <p>Boom Boom is a physics-based brick breaker game I made in Godot. All of the art and programming was done by yours truly.</p>
+            <p className="text-justify">Boom Boom is a physics-based brick breaker game I made in Godot. All of the art and programming was done by yours truly.</p>
             <div>
                 <Image src={boomboom1} width={400} alt="Boom Boom" className="rounded" />
             </div>

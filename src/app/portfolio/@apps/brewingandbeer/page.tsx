@@ -12,7 +12,7 @@ function Brewingandbeer() {
             <div className="linkEffect linkEffect--insideOut mr-auto">
                 <a href="https://brewingandbeer.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">https://brewingandbeer.com</a>
             </div>
-            <p>Brewing and Beer is a blog that I made in 2011 to showcase interesting news and info in the beer and homebrewing industry.</p>
+            <p className="text-justify">Brewing and Beer is a blog that I made in 2011 to showcase interesting news and info in the beer and homebrewing industry.</p>
             <Image src={brewingandbeerImage} alt="brewingandbeer" className="rounded" />
         </div>
     );

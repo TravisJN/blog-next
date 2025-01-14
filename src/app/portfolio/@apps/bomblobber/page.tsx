@@ -14,7 +14,7 @@ function Bomblobber() {
                     <Image src={githubLogo} height={20} alt="github" />
                 </a>
             </div>
-            <p>Bomblobber is a physics simulation game I made while taking some computer science courses at Santa Rosa Junior College. This was a precursor to my more complete game, Boom Boom. Check it out by clicking to launch a missile.</p>
+            <p className="text-justify">Bomblobber is a physics simulation game I made while taking some computer science courses at Santa Rosa Junior College. This was a precursor to my more complete game, Boom Boom. Check it out by clicking to launch a missile.</p>
             <iframe
                 title="bomblobber"
                 style={{ border: 'none' }}

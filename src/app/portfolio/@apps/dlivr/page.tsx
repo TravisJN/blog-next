@@ -16,19 +16,25 @@ function Dlivr() {
             <div className="flex items-center gap-2">
                 <p>Built with React Native and Firebase</p>
             </div>
-            <p>
+            <p className="text-justify">
                 {`Dlivr is a full-stack SaaS application built as the product offering for the startup I co-founded, Dlivr. It's a fully integrated tool for restaurants to manage their delivery orders and dispatch drivers to fulfill those orders.`}
             </p>
-            <p>
-                {`Dlivr includes two applications: 1) A native tablet app used in the restaurant to receive and manage orders, dispatch drivers, and communicate with the driver and customer during the delivery window. 2) A native mobile app used by drivers to claim orders, view delivery details, and communicate with the restaurant or customer.`}
+            <p className="text-justify">
+                {`Dlivr consists of two applications:`}
             </p>
-            <div className="flex flex-wrap">
-                <Image src={dlivrStore1} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 1" className="rounded mr-12" />
-                <Image src={dlivrStore2} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 2" className="rounded mr-12" />
-                <Image src={dlivrStore3} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 3" className="rounded mr-12" />
-                <Image src={dlivrDrive1} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 1" className="rounded mr-12" />
-                <Image src={dlivrDrive2} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 2" className="rounded mr-12" />
-                <Image src={dlivrDrive3} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 3" className="rounded mr-12" />
+            <p className="text-justify">
+                {`1) A native tablet app used in the restaurant to receive and manage orders, dispatch drivers, and communicate with the driver and customer during the delivery window.`}
+            </p>
+            <p className="text-justify">
+                {`2) A native mobile app used by drivers to claim orders, view delivery details, and communicate with the restaurant or customer.`}
+            </p>
+            <div className="flex flex-wrap gap-4">
+                <Image src={dlivrStore1} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 1" className="rounded" />
+                <Image src={dlivrStore2} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 2" className="rounded" />
+                <Image src={dlivrStore3} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 3" className="rounded" />
+                <Image src={dlivrDrive1} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 1" className="rounded" />
+                <Image src={dlivrDrive2} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 2" className="rounded" />
+                <Image src={dlivrDrive3} width={300} style={{ objectFit: 'contain' }} alt="dlivr app 3" className="rounded" />
             </div>
         </div>
     );

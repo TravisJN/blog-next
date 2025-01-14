@@ -17,7 +17,7 @@ function Crapsbattle() {
                     <Image src={githubLogo} height={20} alt="github" />
                 </a>
             </div>
-            <p>{`Craps Battle is a dice game made with React. The goal is to defeat your opponent by rolling 6 dice three times and developing a "hand" of both attack and defense to be used each round.`}</p>
+            <p className="text-justify">{`Craps Battle is a dice game made with React. The goal is to defeat your opponent by rolling 6 dice three times and developing a "hand" of both attack and defense to be used each round.`}</p>
             <Image src={crapsBattleImage} alt="macro recipes" className="rounded" />
         </div>
     );

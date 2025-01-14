@@ -19,8 +19,8 @@ function Macrorecipes() {
                     <Image src={githubLogo} height={20} alt="github" />
                 </a>
             </div>
-            <p>Macro Recipes is an iOS app built with React Native that allows users to enter their desired macronutrient amount and retrieve recipes that fit the selected criteria.</p>
-            <div className="flex">
+            <p className="text-justify">Macro Recipes is an iOS app built with React Native that allows users to enter their desired macronutrient amount and retrieve recipes that fit the selected criteria.</p>
+            <div className="flex flex-wrap">
                 <Image src={macroRecipesImage1} width={300} style={{ objectFit: 'contain' }} alt="macro recipes app 1" className="rounded" />
                 <Image src={macroRecipesImage2} width={300} style={{ objectFit: 'contain' }} alt="macro recipes app 2" className="rounded" />
                 <Image src={macroRecipesImage3} width={300} style={{ objectFit: 'contain' }} alt="macro recipes app 3" className="rounded" />

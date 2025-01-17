@@ -1,5 +1,6 @@
 {
   "name": "blog-next",
+  "homepage": "https://travisneufeld.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
